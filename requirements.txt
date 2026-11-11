@@ -1,0 +1,2 @@
+flet[desktop]==0.86.5
+selenium==4.49.0

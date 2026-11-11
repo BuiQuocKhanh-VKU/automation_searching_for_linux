@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv.backup/
+.pytest_cache/
+
+# Local backups
+backups/
+*.backup
+*.bak
+
+# Runtime
+*.log
+logs/*
+!logs/.gitkeep
+bot_progress.json
+dashboard_progress.json
+waydroid_progress.json
+*.tmp
+
+# Local browser driver / secrets
+msedgedriver
+msedgedriver.exe
+.env
+.env.*
+!.env.example
+!.env.sample
+credentials.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

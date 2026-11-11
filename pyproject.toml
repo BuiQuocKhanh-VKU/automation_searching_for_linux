@@ -1,0 +1,12 @@
+[project]
+name = "ms-automation-clean"
+version = "6.0.0"
+description = "Flet + Selenium + Waydroid desktop automation refactor"
+requires-python = ">=3.10"
+dependencies = [
+  "flet[desktop]==0.86.5",
+  "selenium==4.49.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
